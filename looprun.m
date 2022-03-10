@@ -1,8 +1,10 @@
 addpath('./Functions');
 close all;
 
-amplitudes0 = [0.8, 0.1, 0.1];
-lifetimes0 = [0.4, 1.5, 4.4];
+% amplitudes0 = [0.8, 0.1, 0.1];
+% lifetimes0 = [0.4, 1.5, 4.4];
+amplitudes0 = [0.66,0.33];
+lifetimes0 = [0.23,0.54];
 
 times = (1:5:60)*60;
 monochi = zeros(1,length(times));

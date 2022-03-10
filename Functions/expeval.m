@@ -3,7 +3,7 @@ function [monodata, bidata, tridata] = expeval(amplitudes, lifetimes, acquisitio
     meas = data0(:,2);
 
     %drop zero term
-    data0(data0(:,2)==0) = [];
+    data0=data0(data0(:,2)~=0,:);
     
     % define lambda function as evaluation/optimisation function 
     fun1 = @(x)expdec1eval(x, data0);
