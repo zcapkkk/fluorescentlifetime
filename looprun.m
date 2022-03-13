@@ -10,12 +10,12 @@ format long;
 % lifetimes0 = [0.4, 1.5, 4.4];
 
 % mCherry
-% amplitudes0 = [1.47, 2.77];
-% lifetimes0 = [0.84, 0.16];
+% lifetimes0 = [1.47, 2.77];
+% amplitudes0 = [0.84, 0.16];
 
 % Yellow Camelon
-amplitudes0 = [0.67,2.2,3.57];
-lifetimes0 = [0.45,0.36,0.19];
+lifetimes0 = [0.67,2.2,3.57];
+amplitudes0 = [0.45,0.36,0.19];
 
 
 lifetimes0 = sort(lifetimes0);
